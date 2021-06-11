@@ -1,0 +1,24 @@
+{
+  "name": "chat-app-gp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src_chat/index.js",
+    "dev": "nodemon src_chat/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.0",
+    "express": "^4.16.4",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.5",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
